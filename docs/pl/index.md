@@ -1,56 +1,89 @@
-# Notatnik z Fizyki
+# Interaktywny Zeszyt Ćwiczeń
 
-Witaj w repozytorium **Podstawowe Problemy z Fizyki**: https://github.com/nowitends/Physics_Problems. Ten projekt został zaprojektowany jako kompleksowy szablon Twojego osobistego cyfrowego notatnika, który ma Ci towarzyszyć przez cały kurs.
+Witaj w repozytorium **Physics Problems**. Projekt ten służy jako szablon cyfrowego zeszytu, który ma stanowić Twoje główne narzędzie pracy przez cały okres trwania kursu.
 
-To repozytorium jest dwujęzyczne (angielski/polski) i zorganizowane tak, aby ułatwić tworzenie spersonalizowanej bazy wiedzy przy użyciu przepływu pracy **Fork & Clone**.
+Repozytorium jest dwujęzyczne i zaprojektowane w sposób umożliwiający budowę własnej bazy wiedzy w oparciu o system kontroli wersji.
 
-## Przepływ pracy i metodyka
+> ## Manifest pracy w kursie
+>
+> Ten kurs nie polega na rozwiązywaniu list zadań, lecz na budowaniu własnego rozumienia fizyki poprzez systematyczną pracę z problemami.
+>
+> Repozytorium, które tworzysz, jest Twoim osobistym podręcznikiem — zapisem sposobu, w jaki analizujesz modele fizyczne, interpretujesz wyniki i organizujesz wiedzę.
+>
+> Zadania pełnią rolę narzędzi myślenia: ich celem nie jest uzyskanie liczby, lecz rozwinięcie procesu rozumowania, który będziesz w stanie samodzielnie odtworzyć bez wsparcia technologii.
+>
+> W trakcie semestru wykorzystujesz narzędzia cyfrowe i AI do pogłębiania zrozumienia, natomiast egzamin końcowy weryfikuje transfer tej wiedzy do pamięci i umiejętność samodzielnej rekonstrukcji rozwiązań.
 
-Aby efektywnie korzystać z tego materiału, postępuj zgodnie z poniższą procedurą:
+## Metodyka pracy
 
-1.  **Sforkuj (Fork) to repozytorium**:
-    * Przejdź do repozytorium źródłowego: **[Physics_Problems](https://github.com/nowitens/Physics_Problems)**
-    * Utwórz swoją prywatną kopię, używając przycisku `Fork` na GitHubie.
-2.  **Sklonuj lokalnie**:
-    * Sklonuj swoje sforkowane repozytorium na lokalną maszynę.
-3.  **Dokumentuj rozwiązania**:
-    * Przeglądaj listy zadań.
-    * Znajdź sekcje `Your Solutions` (oraz `Twoje Rozwiązania`) w menu. Te katalogi to Twoje dedykowane **przestrzenie robocze**.
-    * Twórz w nich pliki Markdown, aby przechowywać swoje rozwiązania, dowody i notatki teoretyczne.
-4.  **Kontrola wersji**:
-    * Regularnie commituj (zatwierdzaj) i pushuj (wysyłaj) swoją pracę do repozytorium GitHub, aby zapewnić trwałość danych.
+Aby poprawnie korzystać z udostępnionych materiałów, należy postępować zgodnie z poniższą procedurą:
+
+1.  **Forkowanie Repozytorium**:
+    * Przejdź do repozytorium źródłowego: [https://github.com/nowitends/Physics_Problems](https://github.com/nowitends/Physics_Problems)
+    * Utwórz własną kopię materiałów, używając przycisku `Fork` w serwisie GitHub.
+2.  **Klonowanie**: Pobierz repozytorium na swój komputer lokalny.
+3.  **Tworzenie Dokumentacji**:
+    * Listy zadań znajdują się w odpowiednich działach w menu.
+    * Do każdego pliku z zadaniami (np. `01_Mechanics_1.md`) przypisany jest dedykowany katalog na rozwiązania (np. `Your_solutions/01_Mechanics_1_solution/`).
+    * Katalogi te są Twoją **przestrzenią roboczą** — to w nich tworzysz i utrzymujesz pliki Markdown z rozwiązaniami, dowodami oraz notatkami teoretycznymi.
+    * Struktura jest przygotowana z góry: każda lista zadań ma swój katalog (folder) na rozwiązania, a w nim placeholdery na zadania (np. `solution_01.md`, `solution_02.md`, …)
+    * Twoim zadaniem nie jest tworzenie struktury materiałów, lecz systematyczne uzupełnianie istniejących plików własnym rozumowaniem, komentarzami oraz analizą rozwiązań — repozytorium jest gotowym warsztatem pracy, który w trakcie semestru wypełniasz treścią.
+    * W tych samych katalogach możesz umieszczać dodatkowe materiały wspierające omawianie tematów (np. grafiki, wykresy, pliki HTML/JS, dane wejściowe, wyniki symulacji). Dla porządku trzymaj rozwiązanie każdego zadania przede wszystkim w odpowiadającym mu pliku `solution_XX.md`, a materiały pomocnicze odkładaj do sensownie nazwanych podfolderów. Bałagan w strukturze plików będzie źle odbierany i może być brany pod uwagę przy ocenianiu — tak samo jak treść rozwiązań i sposób ich prezentacji.
+4.  **Utrwalanie zmian**: Regularnie przesyłaj swoje rozwiązania na serwer (Commit & Push).
 
 ## Rola notatek w przygotowaniu do egzaminu
 
-Kluczowe jest rozróżnienie między **fazą nauki** a **fazą weryfikacji**:
+Dobre notatki mają w tym kursie **dwa cele**:
 
-* **Cel notatnika**: Obszerne notatki, które tutaj przygotujesz, są Twoim głównym materiałem do nauki. Musisz je stworzyć, przeczytać i dogłębnie zrozumieć *teraz*, aby móc odtworzyć logikę *później* bez pomocy technologii.
-* **Weryfikacja**: Testy i egzaminy zostaną przeprowadzone w celu zweryfikowania Twojej wiedzy. Szczegółowe harmonogramy i zasady zostaną ogłoszone za pośrednictwem MS Teams.
+* **Prezentacja rozwiązań na zajęciach**: Notatki są podstawą do omawiania zadań. Student poproszony o pokazanie i wyjaśnienie rozwiązania powinien móc je szybko wyświetlić w **wyrenderowanej** formie (np. podgląd Markdown w VS Code lub jako PDF/HTML) i przejść przez pełny tok rozumowania.
+* **Przygotowanie do egzaminu**: Egzamin końcowy ma formę **pisemną, stacjonarną i odbywa się bez dostępu do technologii**. Repozytorium służy do nauki. Rozwiązania powinny być opracowane i zrozumiane w trakcie semestru, tak aby podczas egzaminu możliwe było samodzielne odtworzenie toku rozumowania.
 
-## Wykorzystanie AI do spersonalizowanej nauki
+## Wykorzystanie AI do personalizacji nauki
 
-Zdecydowanie zachęcamy do korzystania z narzędzi AI (ChatGPT, Claude, Gemini) w trakcie semestru do przygotowywania materiałów. AI pozwala na tworzenie **spersonalizowanych notatek** dostosowanych do Twoich konkretnych potrzeb:
+Zdecydowanie zaleca się wykorzystanie narzędzi Generative AI (ChatGPT, Claude, Gemini) na etapie przygotowywania materiałów. Technologia ta pozwala na stworzenie **spersonalizowanych notatek**:
 
-* **Adaptowalność**: Jeśli standardowa definicja z podręcznika jest niejasna, poproś AI o „wyjaśnienie krok po kroku” lub „podanie intuicji geometrycznej”, aby stworzyć notatkę pasującą do Twojego stylu uczenia się.
-* **Efektywność**: Nie kopiuj treści z wyrenderowanej strony HTML. Zamiast tego **kopiuj surowy kod Markdown** z repozytorium do promptu AI, aby zachować formatowanie matematyczne.
-* **Cel**: Celem jest wygenerowanie profesjonalnych, kompleksowych notatek, które posłużą jako wysokiej jakości materiał do samodzielnej nauki.
+* **Dostosowanie**: Nie ma jednej notatki idealnej dla wszystkich. Jeśli definicja jest niezrozumiała, poproś AI o dodatkowe wyjaśnienie, rozpisanie kroków czy intuicję geometryczną. Stwórz materiał, z którego Tobie uczy się najlepiej.
+* **Efektywność**: Nie kopiuj treści ze strony HTML. Kopiuj surowy kod Markdown z plików źródłowych do promptu AI, aby zachować poprawne formatowanie matematyczne.
+* **Profesjonalizm**: Celem jest wygenerowanie kompletnej, czytelnej i merytorycznej notatki, która posłuży jako Twój osobisty podręcznik.
 
-## Oczekiwania w klasie i odpowiedzialność studenta
+## Oczekiwania wobec zajęć i odpowiedzialność studenta
 
-**Wszystkie listy zadań są dostępne od pierwszego dnia semestru.** Pozwala to na wcześniejsze przygotowanie.
+**Wszystkie listy zadań są dostępne od pierwszego dnia semestru.** Umożliwia to wcześniejsze zaplanowanie pracy.
 
-* **Polityka „Zero Wymówek”**: Biorąc pod uwagę dostępność narzędzi Generatywnej AI, twierdzenie „nie wiedziałem, jak zacząć” lub „nie potrafiłem tego rozwiązać” nie jest akceptowalnym usprawiedliwieniem. Podstawowe rozwiązanie można wygenerować w kilka sekund, nawet na urządzeniu mobilnym podczas dojazdu.
-* **Nacisk na dyskusję**: Czas zajęć przeznaczony jest na omawianie rozwiązań, analizę trudności i wyjaśnianie wątpliwości — a nie na rozwiązywanie problemów od zera. Oczekuje się, że przyjdziesz z przygotowanymi materiałami.
-* **Profesjonalizm**: Budowanie i utrzymywanie tego repozytorium jest ćwiczeniem z odpowiedzialności zawodowej i zarządzania przepływem pracy.
-
----
-
-### Dla entuzjastów technologii: Wdrożenie GitHub Pages (Opcjonalne)
-
-Studenci zainteresowani technologią mogą zdecydować się na opublikowanie swoich notatek jako strony internetowej przy użyciu GitHub Pages.
-
-* Użyj poleceń `mkdocs build` i `mkdocs gh-deploy`, aby zbudować i hostować swoje notatki.
+* **Brak wymówek**: W dobie powszechnego dostępu do AI, argumenty typu "nie wiedziałem jak zacząć" lub "nie umiałem rozwiązać" są nieakceptowalne. Wygenerowanie bazowego rozwiązania zajmuje sekundy i można to zrobić w dowolnym miejscu (nawet na telefonie).
+* **Charakter zajęć**: Czas na zajęciach przeznaczony jest na dyskusję nad rozwiązaniami, analizę problemów i wyjaśnianie wątpliwości, a nie na rozwiązywanie zadań od zera. Oczekuje się przyjścia na zajęcia z gotowymi materiałami.
+* **Zaradność**: Budowa i utrzymanie tego repozytorium jest lekcją sumienności oraz organizacji własnego warsztatu pracy.
 
 ---
 
-_Wybierz temat z menu, aby rozpocząć._
+### Dla pasjonatów technologii: Publikacja WWW (Opcjonalne)
+
+Studenci zainteresowani technologią mogą opublikować swoje notatki w formie strony internetowej przy użyciu GitHub Pages.
+
+* Służy do tego polecenie `mkdocs gh-deploy`.
+* **Zastrzeżenie**: Jest to element całkowicie dobrowolny, nie wpływa na ocenę końcową i służy wyłącznie samorozwojowi. Jednocześnie jest to praktyczny atut: jeśli opublikujesz notatki jako publiczną stronę WWW, podczas zajęć nie musisz mieć dostępu do własnego komputera — wystarczy link do repozytorium/strony (nawet z telefonu), aby szybko odnaleźć rozwiązanie i płynnie przejść do jego omówienia.
+
+
+---
+
+## Jak korzystać ze sztucznej inteligencji w tym kursie
+
+Sztuczna inteligencja jest narzędziem wspierającym Twoje rozumienie fizyki, a nie zastępującym proces myślenia. Aby pomoc AI była zgodna z założeniami kursu, konieczne jest przekazanie jej odpowiedniego kontekstu.
+
+Na początku pracy z AI:
+
+1. Udostępnij jej ten dokument (`index.md`).
+2. Wyjaśnij, że repozytorium pełni rolę osobistego podręcznika i notatnika rozumowania.
+3. Poinformuj, że zadania mają rozwijać proces analizy, a nie jedynie prowadzić do wyniku liczbowego.
+4. Podkreśl, że egzamin odbywa się bez wsparcia technologii, więc celem pracy jest możliwość samodzielnego odtworzenia rozwiązań.
+
+Dopiero po przekazaniu tego kontekstu rozpoczynaj pracę nad zadaniami.
+
+Podczas pracy z AI:
+
+- proś o wyjaśnienia kroków, a nie tylko o rozwiązanie,
+- zadawaj pytania pogłębiające zrozumienie,
+- zapisuj w repozytorium własne interpretacje i komentarze,
+- traktuj AI jako rozmówcę i tutora, a nie kalkulator.
+
+Celem korzystania z AI jest rozwijanie zdolności samodzielnego myślenia fizycznego oraz budowanie spójnego, osobistego zapisu wiedzy.
